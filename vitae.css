@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+body{background-image: url(imagenes/whatsapp2.png); background-size: cover; font-family: 'Tajawal'; font-size: 1.1em;}
+.container{
+    background-color:rgba(0,0,0,0.5); margin-left: 15%; width: 70%; display: grid;
+    grid-template-areas: "section section section" "article1 article2 article3" "footer footer footer"; 
+    grid-template-columns: 1fr 1fr 1fr; border-radius: 3em;
+}
+div.container section, article, footer{
+    background-color: rgba(0,0,0,0.4); 
+    border-radius: 3em; 
+    color: #C0C0C0
+}
+header{
+    text-align: center; 
+    line-height: 1.4em; 
+    margin-top: 4%; 
+    margin-bottom: 2em; 
+    color: #468EB3;
+}
+header img{width: 13%; height: 30%; border-radius: 8em;}
+section.div1 h1{width: 40%; margin-left: 1.5em; font-size: 1.8em;}    
+section.div1 p{margin: 1.5em 2em 1.5em 0.7em;} 
+article.div3 p{margin: 1.5em;}
+footer.div5 h1{font-size: 1.6em;} 
+section{margin: 1em 1em 1em 1em; font-size: 1.15em;}  
+article{margin: 0em 1em 1em 1em;} 
+footer{margin: 0em 1em 1em 1em; font-size: 1.15em;}
+article p{color: #C0C0C0;}
+a{text-decoration: none; color: white;}
+a:hover{color: burlywood;}
+ul{list-style: none; margin-top: 10%; margin-right: 10%;}
+li img{width: 18%; height: 28%;}
+ul li{display: inline;}
+article:hover, .div1:hover, footer:hover{background-color: rgba(58, 58, 58, 0.4);}
+footer div{display:grid; grid-template-areas: "fa1 fa2" "fa3 fa4";}
+footer div div{text-align: left;}
+footer div div h1{font-size: 1.2em;}
+footer div div p strong{color: burlywood;}
+div p span{ font-size: 1.4em;}
+div span{text-align: right;}
+
+.div1{
+    display: flex; 
+    justify-content: space-around;
+    grid-area: section;
+}
+.div2{grid-area: article1; text-align: center; line-height: 1.2em;}
+.div3{grid-area: article2; text-align: center;}
+.div4{grid-area: article3; text-align: center;}
+.div5{grid-area: footer; text-align: center;}
+.colorazul{color: #468EB3;}
+.pdavid{font-size: 1.8em;}
+.pdavid2{font-size: 1.3em;}
+.foot1{grid-area: fa1; margin: 0em 4em 0em 4em;}
+.foot2{grid-area: fa2; margin: 0em 4em 0em 4em;}
+.foot3{grid-area: fa3; margin: 0em 4em 0em 4em;}
+.foot4{grid-area: fa4; margin: 0em 4em 0em 4em;}
